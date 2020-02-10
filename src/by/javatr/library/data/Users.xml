@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Library [
+        <!ELEMENT Library (users)*>
+        <!ELEMENT users (user)*>
+        <!ELEMENT user (#PCDATA)>
+        <!ATTLIST user
+                email CDATA #REQUIRED
+                id CDATA #REQUIRED
+                name CDATA #REQUIRED
+                status CDATA #REQUIRED>
+        ]>
+<Library>
+    <users>
+        <user id="1" name="Artem" email="temax2222@gmail.com" status="ADMINISTRATOR"/>
+        <user id="2" name="Vania" email="tema233@gmail.com" status="READER"/>
+        <user id="3" name="Sasha" email="temaxasdasd@gmail.com" status="READER"/>
+        <user id="4" name="Petr" email="123123qwewqe@gmail.com" status="READER"/>
+    </users>
+</Library>

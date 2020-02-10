@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE real_library [
+        <!ELEMENT real_library (books)*>
+        <!ELEMENT books (book)*>
+        <!ELEMENT book (#PCDATA)>
+        <!ATTLIST book
+                author CDATA #REQUIRED
+                book_amount CDATA #REQUIRED
+                id CDATA #REQUIRED
+                publishing_date CDATA #REQUIRED
+                title CDATA #REQUIRED>
+        ]>
+<real_library>
+    <books>
+        <book id="1" title="Thinking in Java" author="Bruce Eikhel" publishing_date="2015" book_amount="12"/>
+        <book id="2" title="Java Methods" author="Ihar Blinou" publishing_date="2015" book_amount="11"/>
+        <book id="3" title="Computer Science" author="No one" publishing_date="2014" book_amount="12"/>
+        <book id="4" title="Stupid" author="Dostoevskiy" publishing_date="1956" book_amount="15"/>
+        <book id="5" title="Old man and sea" author="Hamingueu" publishing_date="1990" book_amount="10"/>
+        <book id="6" title="Hole Java" author="Gerbert Shild" publishing_date="2016" book_amount="50"/>
+    </books>
+</real_library>
