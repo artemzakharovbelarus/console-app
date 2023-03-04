@@ -1,1 +1,1 @@
-# Welcome to my project!
+# Java console application
